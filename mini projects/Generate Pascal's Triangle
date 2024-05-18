@@ -1,0 +1,16 @@
+## Generate Pascal's Triangle: Write a function to generate the first n rows of Pascal's triangle.
+
+from math import *
+​
+def pascal(): 
+    
+    n=int(input("enter the number of rows: "))
+​
+    for i in range(n):
+        for j in range(n-i+1):
+            print(end=" ")
+        for j in range(i+1):
+            print(factorial(i)//(factorial(j)*factorial(i-j)), end=" ")
+        print()
+​
+pascal()
