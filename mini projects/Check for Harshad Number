@@ -1,0 +1,17 @@
+## Check for Harshad Number: Write a function to check if a given number is a Harshad number or not (a number is divisible by the sum of its digits).
+
+def harshad_num():
+    num=int(input("enter your number: "))
+    n1=list(str(num))
+    ln=[]
+    for i in n1:
+        x=int(i)
+        ln.append(x)
+    num_sum= sum(ln)
+    
+    if num%num_sum == 0:
+        print("it is a harshad number")
+    else:
+        print("it is not a harshad number")
+        
+harshad_num()
