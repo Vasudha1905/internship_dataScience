@@ -1,0 +1,4 @@
+## Sort List of Strings: Write a function to sort a list of strings based on their lengths, shortest to longest.
+ls= ["red", "green", "yellow","white","orange","ta"]
+ls.sort(key=len)
+print(ls)
