@@ -1,0 +1,11 @@
+## Find Pythagorean Triplets: Write a function to find all Pythagorean triplets with side lengths less than or equal to a given limit.
+
+def pytho_triplet():
+    lim=int(input("enter the limit of side length: "))
+    for x in range (1,lim+1):
+        for y in range (1,lim+1):
+            for z in range(y,lim+1):   
+                if x*x == y*y + z*z :
+                    print (x,y,z)
+        
+pytho_triplet()
