@@ -1,0 +1,13 @@
+## Calculate Median of List: Write a function to calculate the median of a list of numbers.
+
+def mediancalc(): 
+    num=[12,56,43,24,45]
+    l2=sorted(num)
+    print(l2)
+    n = len(num)
+    if n % 2 == 0:
+        median = (num[n//2 - 1] + num[n//2]) / 2
+    else:
+        median = num[n//2]
+    print(median)
+mediancalc()
