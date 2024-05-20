@@ -1,25 +1,15 @@
 # Check for Strong Number: Write a function to check if a given number is a strong number or not.
-import math as m
+import math
+
 def strongnum():
-    n=int(input("enter your number: "))
-
-    #converting number to list
-    n1=list(str(n))
-    ln=[]
-    for i in n1:
-        x=int(i)
-        ln.append(x)
-        
-    fact=[]
-    for j in ln:
-        a=m.factorial(j)
-        fact.append(a)
+    n = int(input("Enter your number: "))
     
-    factsum=sum(fact)
-
+    # Calculate the sum of the factorials of the digits
+    factsum = sum(math.factorial(int(digit)) for digit in str(n))
+    
     if factsum == n:
-        print("it is a strong number")
+        print("It is a strong number")
     else:
-        print("it is not a strong number")
-        
+        print("It is not a strong number")
+
 strongnum()
