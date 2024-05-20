@@ -1,8 +1,5 @@
 ## Reverse Words in a String: Write a function to reverse the order of words in a given string.
-wrd= input("enter your sentence: ")
-words=wrd.split(" ")
-x=[]
-for i in words:
-    x.insert(0,i)
-y= " ".join(x)
-print(" the string in reverse is: ",y)
+wrd = input("Enter your sentence: ")
+words = wrd.split()
+y = " ".join(words[::-1])
+print("The string in reverse is:", y)
