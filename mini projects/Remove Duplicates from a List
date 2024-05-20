@@ -1,9 +1,5 @@
 ##  Remove Duplicates from a List: Write a function to remove duplicates from a list while preserving the original order.
-l1=[1,45,34,34,34,56,76,56,23,23,5,8]
-l2=[]
-for i in l1:
-    if i not in l2:
-        l2.append(i)
-print("original list is: ",l1)
-print("list without duplicates is: ",l2)
+l1 = [1, 45, 34, 34, 34, 56, 76, 56, 23, 23, 5, 8]
+l2 = list(set(l1))
+print("Original list is:", l1, "\nList without duplicates is:", l2)
     
