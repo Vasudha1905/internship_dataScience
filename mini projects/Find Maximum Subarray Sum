@@ -1,17 +1,24 @@
 ## Find Maximum Subarray Sum: Write a function to find the maximum sum of a contiguous subarray within a one-dimensional array of numbers.
 def func(l1, n):
-    max_sum = l2[0]
-    ans = []
-    for i in range(n):
-        for j in range(i, n):
-            a = sum(l2[i:j + 1])
-            if a > max_sum:
-                max_sum = a
-                ans = l2[i:j + 1]
-
-    print("Sub array which will give maximum sum", ans)
-    print("Maximum sum = ", max_sum)
+    max_sum = current_sum = l1[0]
+    start = end = temp_start = 0
+    
+    for i in range(1, n):
+        if l1[i] > current_sum + l1[i]:
+            current_sum = l1[i]
+            temp_start = i
+        else:
+            current_sum += l1[i]
+        
+        if current_sum > max_sum:
+            max_sum = current_sum
+            start = temp_start
+            end = i
+    
+    ans = l1[start:end + 1]
+    print("Subarray which will give maximum sum:", ans)
+    print("Maximum sum =", max_sum)
 
 l2 = [-1, 8, 1, -7, -1, 5, 1, -3]
-print("the list of numbers =", l2)
+print("The list of numbers =", l2)
 func(l2, len(l2))
