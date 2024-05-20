@@ -1,20 +1,20 @@
 ## Find Majority Element: Write a function to find the majority element in an array (element that appears more than n/2 times).
 
-def majority_element(l,n):
-    
-    for i in range(n):
-        count=0
-        for j in range(n):
-            if l[i]==l[j]:
-                count=count+1
-        if count> n//2 :
-            print("majority element is ",l[i]) 
-            break
-        else:
-            print("no majority element")
-            break
-​
-​
-l1=[4,4,4,5,4,1,4]
-n1=len(l)
-majority_element(l1,n1)
+def majority_element(l):
+    candidate = None
+    count = 0
+
+    # Phase 1: Find a candidate
+    for num in l:
+        if count == 0:
+            candidate = num
+        count += (1 if num == candidate else -1)
+
+    # Phase 2: Verify the candidate
+    if l.count(candidate) > len(l) // 2:
+        print("Majority element is", candidate)
+    else:
+        print("No majority element")
+
+l1 = [4, 4, 4, 5, 4, 1, 4]
+majority_element(l1)
