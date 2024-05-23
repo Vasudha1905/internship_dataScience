@@ -1,7 +1,7 @@
 # Mini Projects and Tutorials
 
 ### Tutorials
-This repositary contains the basics of a few python libraries. You can refer it to revise your basics. 
+This repositary contains the basics of a few python libraries. You can refer it to go through the functions. 
 
 ### Mini-Projects
 This repo contains some min projects that can help you apply your python skills to practical situations
