@@ -1,5 +1,11 @@
+# Mini Projects and Tutorials
 
-## V1.2
-# gtt
- # this branch contains the optimized codes for the mini projects. The projects cover the basics of python..dd
-ggtgtgtgtgtgttgtg 
+### Tutorials
+This repositary contains the basics of a few python libraries. You can refer it to revise your basics. 
+
+### Mini-Projects
+This repo contains some min projects that can help you apply your python skills to practical situations
+
+## libraries used
+1) numpy
+2) matplotlib
