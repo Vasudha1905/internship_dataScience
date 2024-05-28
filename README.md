@@ -31,7 +31,7 @@ Note:- Other files/resources like csv or any other files should be stored inside
 
 ## Bibliography
 
-1. [Github repo](REPO_LINKS)
+1. [Github repo](https://github.com/nitinkumar30/Data-Science-mini-projects)
 
 
 ## Author
