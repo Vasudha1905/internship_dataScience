@@ -27,7 +27,7 @@ Note:- Other files/resources like csv or any other files should be stored inside
 
 1. I have completed projects on each modules covered under [tutorials](Tutorials).
 2. Following are the projects completed:  
-    1. [NumPy](mini projects/NumPy)
+    1. [NumPy](mini_projects/NumPy)
 
 ## Bibliography
 
