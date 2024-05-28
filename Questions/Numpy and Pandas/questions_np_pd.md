@@ -1,12 +1,15 @@
 # Questions related to numpy and pandas
 
+```
+import numpy as np
+import pandas as pd 
+```
+
 ### Q1) What is the key difference between NumPy arrays and Pandas Series?
 * numpy arrays can have multiple dimensions whereas Pandas series has only one dimension
 
 ```
-# x has i dimension and y has 2 dimensions
-import numpy as np
-import pandas as pd 
+# x has 1 dimension and y has 2 dimensions
 x=pd.Series([1,2,3,4])
 x.ndim
 y=np.array([[1,2,3,4],[5,6,7,8]])
