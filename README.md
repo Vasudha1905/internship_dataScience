@@ -13,8 +13,6 @@
 > For mini projects:  
     Main >> Projects >> LIBRARY_NAME >> upload_file_as_pdf_and_ipynb
 
-Note:- Other files/resources like csv or any other files should be stored inside Assets folder under LIBRARY_NAME directory.
-
 ## Tutorials
 
 1. There are tutorials for every library/module used for Data Science.
