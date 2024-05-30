@@ -26,6 +26,7 @@
 1. I have completed projects on each modules covered under [tutorials](Tutorials).
 2. Following are the projects completed:  
     1. [NumPy](mini_projects/NumPy)
+    2. [Pandas](mini_projects/Pandas)
 
 ## Bibliography
 
