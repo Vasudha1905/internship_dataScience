@@ -17,9 +17,9 @@
 
 1. There are tutorials for every library/module used for Data Science.
 2. Following are the modules completed:  
-    1. [NumPy](Tutorials/Numpy/tutorial_numpy.ipynb)
-    2. [Matplotlib](Tutorials/Matplotlib/Matplotlib_tutorial.ipynb)
-    3. [Pandas](Tutorials/Pandas/pandas_tutorial.ipynb)
+    1. [NumPy](Tutorials/Numpy)
+    2. [Matplotlib](Tutorials/Matplotlib)
+    3. [Pandas](Tutorials/Pandas)
     4. [SciPy](Tutorials/SciPy)
 
 ## Mini Projects
