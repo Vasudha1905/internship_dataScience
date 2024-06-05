@@ -27,7 +27,10 @@
 1. I have completed projects on each modules covered under [tutorials](Tutorials).
 2. Following are the projects completed:  
     1. [NumPy](mini_projects/NumPy)
-    2. [Pandas](mini_projects/Pandas)
+           1.[london olympic data](mini_projects/NumPy/london_olympic_data)
+    2. [Matplotlib](mini_projects/Matplotlib)
+           1. [Area and population](mini_projects\Matplotlib\area_population_california)
+    4. [Pandas](mini_projects/Pandas)
 
 ## Bibliography
 
