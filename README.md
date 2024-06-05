@@ -20,6 +20,7 @@
     1. [NumPy](Tutorials/Numpy/tutorial_numpy.ipynb)
     2. [Matplotlib](Tutorials/Matplotlib/Matplotlib_tutorial.ipynb)
     3. [Pandas](Tutorials/Pandas/pandas_tutorial.ipynb)
+    4. [SciPy](Tutorials/SciPy)
 
 ## Mini Projects
 
