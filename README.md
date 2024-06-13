@@ -40,7 +40,12 @@
     5. [Scipy](mini_projects/SciPy)
        1. [birth rate analysis](mini_projects/SciPy/birth_rate_analysis)
        2. [effect of twitter on stock market](mini_projects/SciPy/effect_of_twitter_on_stock_market)
-
+    6. [Seaborn](mini_projects/Seaborn)
+       1. [Customer Segmentation](mini_projects/Seaborn/customer_segmentation.ipynb)
+       2. [Real Estate Price Predictor](mini_projects/Seaborn/real_estate_price_prediction.ipynb)
+       3. [Instagram Reach Analysis](mini_projects/Seaborn/Instagram_reach_analysis.ipynb)
+    7. [Pyplot](mini_projects/Pyplot)
+       1. [IMDB Data Analysis](mini_projects/Pyplot/Imdb_data_analysis.ipynb)
 ## Bibliography
 
 1. [Github repo](https://github.com/nitinkumar30/Data-Science-mini-projects)
