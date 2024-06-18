@@ -21,6 +21,8 @@
     2. [Matplotlib](Tutorials/Matplotlib)
     3. [Pandas](Tutorials/Pandas)
     4. [SciPy](Tutorials/SciPy)
+    5. [Seaborn](Tutorials/Seaborn)
+    6. [Scikit-Learn](Tutorials/Scikit-Learn)
 
 ## Mini Projects
 
@@ -46,6 +48,13 @@
        3. [Instagram Reach Analysis](mini_projects/Seaborn/Instagram_reach_analysis.ipynb)
     7. [Pyplot](mini_projects/Pyplot)
        1. [IMDB Data Analysis](mini_projects/Pyplot/Imdb_data_analysis.ipynb)
+    8. [Scikit-Learn](mini_projects/Scikit-Learn)
+       1. [Credit Card Fraud Detection](mini_projects/Scikit-Learn/Credit_card_fraud_detection)
+       2. [Heart Disease Prediction](mini_projects/Scikit-Learn/Heart_disease_prediction)
+       3. [Stock price prediction](mini_projects/Scikit-Learn/stock_price_prediction)
+    9. [BeautifulSoup](mini_projects/BeautifulSoup)
+       1. [Flipkart webscarping](mini_projects/BeautifulSoup/Flipkart_webscrapping)
+       2. [sentiment analysis genai](mini_projects/BeautifulSoup/sentiment_analysis_genai)
 ## Bibliography
 
 1. [Github repo](https://github.com/nitinkumar30/Data-Science-mini-projects)
