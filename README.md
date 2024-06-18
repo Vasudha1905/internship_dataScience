@@ -21,8 +21,9 @@
     2. [Matplotlib](Tutorials/Matplotlib)
     3. [Pandas](Tutorials/Pandas)
     4. [SciPy](Tutorials/SciPy)
-    5. [Seaborn](Tutorials/Seaborn)
-    6. [Scikit-Learn](Tutorials/Scikit-Learn)
+    5. [Pyplot](Tutorials/Pyplot)
+    6. [Seaborn](Tutorials/Seaborn)
+    7. [Scikit-Learn](Tutorials/Scikit-Learn)
 
 ## Mini Projects
 
