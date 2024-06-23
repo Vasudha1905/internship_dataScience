@@ -60,6 +60,7 @@
        3. [product price comparision](mini_projects/BeautifulSoup/product_price_comparision)
        4. [User Input Sentiment Analyser](mini_projects/BeautifulSoup/sentiment_analyser)
        5. [Game Review Sentiment Analysis](mini_projects/BeautifulSoup/video_game_reviews_analysis)
+       6. [Instagram Scraping](mini_projects/BeautifulSoup/Instagram_scaping/scraping_instagram.ipynb)
 ## Bibliography
 
 1. [Github repo](https://github.com/nitinkumar30/Data-Science-mini-projects)
